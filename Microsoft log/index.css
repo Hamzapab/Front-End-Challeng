@@ -1,0 +1,13 @@
+ body{
+     padding: 100px;
+ }
+div{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 52px 52px yellow, 
+                -52px -52px red,
+                52px -52px green,
+                -52px 52px blue;
+}

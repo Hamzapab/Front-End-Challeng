@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+div{
+    height: 2000px;
+    position: relative;
+    transition: 1.5s;
+}
+
+button{
+    background-color: red;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+}
+span{
+    position: absolute;
+    bottom: 0;
+}

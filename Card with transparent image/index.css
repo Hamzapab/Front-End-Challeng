@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eaeaea;
+    padding-top: 200px;
+}
+.card{
+    max-width: 400px;
+    background-color: white;
+    margin:0  auto;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-left:20px ;
+    padding-right: 20px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 0 5px 3px #ddd;
+    position: relative;
+}
+.card::after{
+    content: "A+";
+    position: absolute;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width:30px;
+    aspect-ratio: 1/1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    right: 15px;
+}
+img{
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.head{
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+h1{
+    color: blue;
+}
+p{
+    opacity: 0.6;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+li{
+    display: flex;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+}
