@@ -1,2 +1,2 @@
 # Front-End-Challeng
-Some css chalange propesd by el zero web school
+Some css challenge found in  el zero web school at https://elzero.org/category/challenges/front-end-challenges/
